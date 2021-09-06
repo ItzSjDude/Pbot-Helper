@@ -10,4 +10,4 @@
 
 FROM ubuntu:latest
 WORKDIR root/ItzSjDude
-RUN apt-get update && apt-get install wget && wget https://raw.githubusercontent.com/ItzSjDude/PikabotHelper/main/pika.sh && pika.sh && chmod +x /usr/local/bin/* 
+RUN apt-get update && apt-get install wget -y && wget https://raw.githubusercontent.com/ItzSjDude/PikabotHelper/main/pika.sh && pika.sh && chmod +x /usr/local/bin/* 
