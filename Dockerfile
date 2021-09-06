@@ -10,4 +10,4 @@
 
 FROM ubuntu:latest
 WORKDIR root/ItzSjDude
-RUN apt-get update && apt install curl && curl -LJO https://raw.githubusercontent.com/ItzSjDude/PikabotHelper/main/pika.sh && pika.sh && chmod +x /usr/local/bin/* 
+RUN apt-get update && apt install curl -y && curl -LJO https://raw.githubusercontent.com/ItzSjDude/PikabotHelper/main/pika.sh && pika.sh && chmod +x /usr/local/bin/* 
