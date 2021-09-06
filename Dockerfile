@@ -10,4 +10,4 @@
 
 FROM ubuntu:latest
 WORKDIR root/ItzSjDude
-RUN https://raw.githubusercontent.com/ItzSjDude/PikabotHelper/main/pika.sh && chmod +x /usr/local/bin/* 
+RUN curl -LJO https://raw.githubusercontent.com/ItzSjDude/PikabotHelper/main/pika.sh && pika.sh && chmod +x /usr/local/bin/* 
