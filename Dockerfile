@@ -9,6 +9,6 @@
 # All rights reserved 
 
 FROM ubuntu:latest
-COPY pika.sh /tmp/pika.sh
+COPY . /tmp
 WORKDIR root/ItzSjDude
 RUN /tmp/pika.sh && chmod +x /usr/local/bin/* 
