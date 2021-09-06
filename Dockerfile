@@ -9,5 +9,7 @@
 # All rights reserved 
 
 FROM ubuntu:latest
+RUN apt-get update && apt-get install wget -y && wget https://raw.githubusercontent.com/ItzSjDude/PikabotHelper/main/pika.sh
+COPY pika.sh /pika.sh
 WORKDIR root/ItzSjDude
-RUN apt-get update && apt-get install wget -y && wget https://raw.githubusercontent.com/ItzSjDude/PikabotHelper/main/pika.sh && pika.sh && chmod +x /usr/local/bin/* 
+RUN chmod -x /pika.sh && /pika.sh && chmod +x /usr/local/bin/* 
