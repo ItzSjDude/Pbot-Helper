@@ -9,6 +9,5 @@
 # All rights reserved 
 
 FROM ubuntu:latest
-COPY . /tmp
 WORKDIR root/ItzSjDude
-RUN /tmp/pika.sh && chmod +x /usr/local/bin/* 
+RUN https://raw.githubusercontent.com/ItzSjDude/PikabotHelper/main/pika.sh && chmod +x /usr/local/bin/* 
