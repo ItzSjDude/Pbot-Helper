@@ -1,6 +1,4 @@
 # ©ItzSjDude 
-build: 
+build:
   docker:
-      worker: pikabot
-run:
-   worker: bash start
+      PikaBot: pikabot
