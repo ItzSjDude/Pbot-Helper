@@ -59,6 +59,5 @@ RUN apt-get update && apt upgrade -y && apt-get install -y --no-install-recommen
     libfreetype6-dev \
     procps \
     policykit-1
-apt autoremove --yes
 
 RUN pip3 install --upgrade pip setuptools && git clone https://github.com/ItzSjDude/PikachuUserbot ./ && mkdir bin && mkdir pikabot/main_plugs && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt install -y ./google-chrome-stable_current_amd64.deb && rm google-chrome-stable_current_amd64.deb && pip3 install -r requirements.txt
