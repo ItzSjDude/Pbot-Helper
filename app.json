@@ -4,12 +4,8 @@
   "logo": "https://telegra.ph/file/9ad4ea3cef79d7d761b61.png",
     "keywords": [
     "telegram",
-    "userbot",
-    "plugin",
-    "modular",
-    "productivity"
   ],
-  "repository": "https://github.com/ItzSjDude/PikachuUserbot/",
+  "repository": "https://github.com/ItzSjDude/PikabotHelper",
   "website": "https://ItzSjDude.in",
   "success_url": "#TODO",
   "stack": "container",
