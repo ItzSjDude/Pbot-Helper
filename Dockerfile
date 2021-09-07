@@ -8,8 +8,6 @@
 #
 # All rights reserved 
 
-FROM ubuntu:latest
-RUN apt-get update && apt-get install wget -y && wget https://raw.githubusercontent.com/ItzSjDude/PikabotHelper/main/pika.sh
-COPY pika.sh /pika.sh
+FROM kalilinux/kali-rolling
+ARG DEBIAN_FRONTEND=noninteractive
 WORKDIR root/ItzSjDude
-RUN chmod -x /pika.sh && /pika.sh && chmod +x /usr/local/bin/* 
