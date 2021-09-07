@@ -1,6 +1,6 @@
 # ©ItzSjDude 
 build: 
   docker:
-      worker: Dockerfile
+      worker: pikabot
 run:
    worker: bash start
