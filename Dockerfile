@@ -10,6 +10,6 @@
 
 FROM kalilinux/kali-rolling
 ARG DEBIAN_FRONTEND=noninteractive
-COPY pika.sh /tmp/pika.sh
+COPY script.sh /tmp/script.sh
 WORKDIR root/ItzSjDude
-RUN /tmp/pika.sh && chmod +x /usr/local/bin/* 
+RUN /tmp/script.sh && chmod +x /usr/local/bin/* 
