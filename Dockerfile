@@ -9,7 +9,6 @@
 # All rights reserved 
 
 FROM kalilinux/kali-rolling
-ARG DEBIAN_FRONTEND=noninteractive
 COPY script.sh /tmp/script.sh
 WORKDIR root/ItzSjDude
 RUN /tmp/script.sh && chmod +x /usr/local/bin/* 
