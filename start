@@ -1,2 +1,2 @@
 #!/bin/bash
-. #infinix/startup.sh
+. INFINIX/startup.sh
