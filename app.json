@@ -1,20 +1,15 @@
 {
-  "name": "Pikachu UserBot",
-  "description": "Userbot created by a @ItzSjDude and join https://t.me/ItzSjDudeProjects for any problems or support",
+  "name": "Infinix",
+  "description": "#TODO",
   "logo": "https://telegra.ph/file/9ad4ea3cef79d7d761b61.png",
     "keywords": [
     "Telegram",
-    "Telethon", 
-    "Userbot",
-    "Multiclients",
-    "MultiSudos", 
-    "LoginAssistant", 
-    "Secure",
-    "productivity"
+    "Telethon"
   ],
-  "repository": "https://github.com/ItzSjDude/PikachuUserbot/",
+  "repository": "#TODO",
   "website": "https://ItzSjDude.in",
   "success_url": "#TODO",
+  "stack": "container",
   "env": {
     "Bot_token": {
       "description": "Needed for inline buttons maker nd Helper plugin. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings. Get it.",
@@ -24,6 +19,5 @@
       "description": "Needed for helper/ Session Generation. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
       "value": ""
     }
-  },
-  "addons": [{"plan": "heroku-postgresql","options": {"version": "12"}}]
   }
+}
