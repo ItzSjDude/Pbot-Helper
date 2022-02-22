@@ -16,26 +16,6 @@
   "website": "https://ItzSjDude.in",
   "success_url": "#TODO",
   "env": {
-    "Api_id": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
-    },
-    "Api_hash": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
-    },
-    "Botlog_chat": {
-      "description": "Create a private group add rose  then type /id. Required for logging [Make sure your ID is starts with -100 and make sure that it is only numbers] ",
-      "value": ""
-    },
-    "Heroku_apikey": {
-      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
-      "value": ""
-    },
-    "Heroku_appname": {
-      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
-      "value": ""
-    },
     "Bot_token": {
       "description": "Needed for inline buttons maker nd Helper plugin. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings. Get it.",
       "value": ""
@@ -45,5 +25,5 @@
       "value": ""
     }
   },
-  "addons": [{"plan": "heroku-postgresql","options": {"version": "12"}}],
-  "buildpacks": [{"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"},{"url":"https://github.com/heroku/heroku-buildpack-google-chrome"},{"url":"https://github.com/heroku/heroku-buildpack-chromedriver"},{"url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"},{"url": "https://github.com/heroku/heroku-buildpack-apt.git"},{"url": "https://github.com/chrismytton/heroku-buildpack-jq"},{"url": "heroku/python"}]}
+  "addons": [{"plan": "heroku-postgresql","options": {"version": "12"}}]
+  }
