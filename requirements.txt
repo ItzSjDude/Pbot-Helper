@@ -1,4 +1,4 @@
-Telethon>=1.21.1
+Telethon
 Pillow>=5.3.0
 PyGithub
 aiofiles
